@@ -1,0 +1,16 @@
+{
+  "markdownlint.config": {
+    "default": true,
+    "MD003": {
+      "style": "atx"
+    },
+    "MD007": {
+      "indent": 4
+    },
+    "MD033": false,
+    "no-hard-tabs": false
+},
+"markdown-preview-enhanced.breakOnSingleNewLine": false,
+"markdown-preview-enhanced.enableExtendedTableSyntax": true,
+"markdown.trace": "verbose"
+}

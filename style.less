@@ -1,0 +1,67 @@
+#my_id {
+  @fore_color: black;
+  @back_color: white;
+  @border_color: darkgray;
+
+  @underline_color: @fore_color;
+  @table_back_color: @back_color + #040404;
+  @th_back_color: @back_color - #101010;
+
+  background: @back_color;
+  font-size: 1em;
+
+  h1 {
+    counter-reset: chapter;
+    font-size: 1.8m;
+    text-align: center;
+  }
+
+  h2 {
+    counter-reset: section;
+    font-size: 1.6em;
+    border-bottom: 1px solid @underline_color;
+    display: block;
+    page-break-before: always;
+  }
+
+  h2:not(:first-of-type)::before {
+    counter-increment: chapter;
+    content: counter(chapter) ". ";
+  }
+
+  // h2:not(:first-of-type) {
+  //   display: block;
+  //   page-break-before: always;
+  // }
+
+  h3 {
+    counter-reset: paragraph;
+    font-size: 1.2em;
+  }
+  h3::before {
+    counter-increment: section;
+    content: counter(chapter) ". " counter(section) ". ";
+  }
+
+  h4 {
+    font-size: 1em;
+  }
+  h4::before {
+    counter-increment: paragraph;
+    content: "（" counter(paragraph) "）";
+  }
+
+  table {
+    tr {
+      color: @fore_color;
+      background-color: @table_back_color;
+      th,
+      td {
+        border: 1px solid @border_color;
+      }
+      th {
+        background: @th_back_color;
+      }
+    }
+  }
+}
