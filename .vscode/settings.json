@@ -7,10 +7,8 @@
     "MD007": {
       "indent": 4
     },
+    "no-duplicate-heading": false,
     "MD033": false,
     "no-hard-tabs": false
-},
-"markdown-preview-enhanced.breakOnSingleNewLine": false,
-"markdown-preview-enhanced.enableExtendedTableSyntax": true,
-"markdown.trace": "verbose"
+}
 }
