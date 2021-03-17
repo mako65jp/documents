@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "davidanson.vscode-markdownlint",
+        "shd101wyy.markdown-preview-enhanced",
+        "jebbs.plantuml",
+        "tomoki1207.pdf",
+        "mushan.vscode-paste-image",
+        "ms-ceintl.vscode-language-pack-ja",
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode"
+    ]
+}
