@@ -1,12 +1,14 @@
 {
     "recommendations": [
-        "davidanson.vscode-markdownlint",
-        "shd101wyy.markdown-preview-enhanced",
-        "jebbs.plantuml",
-        "tomoki1207.pdf",
-        "mushan.vscode-paste-image",
         "ms-ceintl.vscode-language-pack-ja",
         "eamodio.gitlens",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "jebbs.plantuml",
+        "shd101wyy.markdown-preview-enhanced",
+        "davidanson.vscode-markdownlint",
+        "tomoki1207.pdf",
+        "mushan.vscode-paste-image",
+        "janisdd.vscode-edit-csv",
+        "coenraads.bracket-pair-colorizer",
     ]
 }
